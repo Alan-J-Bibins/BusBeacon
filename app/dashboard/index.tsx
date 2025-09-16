@@ -3,7 +3,7 @@ import { View, Text } from 'react-native'
 export default function Screen() {
     return (
         <View>
-            <Text>Woo dashboard</Text>
+            <Text className='text-lg font-bold'>Woo dashboard</Text>
         </View>
     )
 }
