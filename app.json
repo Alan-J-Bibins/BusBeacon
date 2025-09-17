@@ -51,6 +51,15 @@
                     "bonjourServicesName": "bus-beacon",
                     "localNetworkUsagePermissionText": "$(PRODUCT_NAME) need access to your local network to discover nearby devices"
                 }
+            ],
+            [
+                "react-native-permissions",
+                {
+                    "iosPermissions": [
+                        "Camera",
+                        "Microphone"
+                    ]
+                }
             ]
 
         ],
